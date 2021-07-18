@@ -2,7 +2,7 @@ from twilio.rest import Client
 
 def send(body_text, to_who = "+97252*******"):
     account_sid = 'AC7211f042a2ea4004fbf253955c411808'
-    auth_token = '2757eda98c8f66cb7f1a217b2af9cc5a'
+    auth_token = '***********************'
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(
